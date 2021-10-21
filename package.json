@@ -1,7 +1,7 @@
 {
   "name": "@danielhammerl/onoff-wrapper",
   "type": "commonjs",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "keywords": [
     "nodejs",
     "typescript",
