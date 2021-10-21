@@ -5,7 +5,8 @@ const ON = OriginalGpio.HIGH;
 
 export * from 'onoff';
 
-export function Gpio(gpio: number, direction: Direction, edge?: Edge, options?: Options): OriginalGpio {
+export type GpioType = OriginalGpio;
+export function Gpio(gpio: number, direction: Direction, edge?: Edge, options?: Options): GpioType {
   if (process.env.NODE_ENV === 'production') {
     const gpioInstance = new OriginalGpio(gpio, direction, edge, options);
     gpioInstance.writeSync(OFF);
