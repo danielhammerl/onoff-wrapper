@@ -30,15 +30,15 @@
     "onoff": "^6.0.3"
   },
   "devDependencies": {
-    "@types/node": "^16.11.1",
-    "@typescript-eslint/eslint-plugin": "^5.1.0",
-    "eslint": "^8.0.1",
-    "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-prettier": "^4.0.0",
-    "eslint-plugin-unicorn": "^37.0.1",
-    "husky": "^7.0.4",
-    "leasot": "^12.0.0",
-    "prettier": "^2.4.1",
-    "typescript": "^4.4.4"
+    "@types/node": "16.11.1",
+    "@typescript-eslint/eslint-plugin": "5.1.0",
+    "eslint": "8.0.1",
+    "eslint-plugin-node": "11.1.0",
+    "eslint-plugin-prettier": "4.0.0",
+    "eslint-plugin-unicorn": "37.0.1",
+    "husky": "7.0.4",
+    "leasot": "12.0.0",
+    "prettier": "2.4.1",
+    "typescript": "4.4.4"
   }
 }
